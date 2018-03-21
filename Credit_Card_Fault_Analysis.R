@@ -4,12 +4,16 @@ library(car)
 library(plyr)
 library("caret")
 
-  #file link -  for the dataset
-  link<-paste("C:/Users/jaide/Documents/default-of-credit-card-clients-dataset/","UCI_Credit_Card",".csv",sep="")
-  
+  #file link -  for the dataset 
+  #(uncomment first line and comment second to hard code custom path)
+  #link<-paste("C:/Users/xyz/Documents/default-of-credit-card-clients-dataset/","UCI_Credit_Card",".csv",sep="")
+  link<-paste(file.choose())
+
   #link to save correlation matrix output in file
-  link2<-paste("C:/Users/jaide/Documents/default-of-credit-card-clients-dataset/","cor",".csv",sep="")
-  
+  #(uncomment first line and comment second to hard code custom path)
+  #link2<-paste("C:/Users/jaide/Documents/default-of-credit-card-clients-dataset/","cor",".csv",sep="")
+  link2<-paste(choose.dir())
+
   #read dataset into  a frame
   dataset<-read.csv(link,header=TRUE)
   
