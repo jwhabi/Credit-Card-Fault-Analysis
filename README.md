@@ -78,6 +78,6 @@ Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/
 
 The original dataset can be found here at the UCI Machine Learning Repository.
 
-**** Acknowlledgements****:
+**** Acknowledgements****:
 1)Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
 2) https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset
